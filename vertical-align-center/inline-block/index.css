@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  background-color: #ccc;
+  width:100%;
+  height: 100%;
+  text-align: center;
+}
+
+.container:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.child {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}

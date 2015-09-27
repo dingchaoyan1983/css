@@ -12,12 +12,16 @@ body {
   background-color: #ccc;
   width:100%;
   height: 100%;
+  text-align: center;
 }
 
 .child {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
+}
+
+.child span{
+  background-color: #0FF;
 }
 
 

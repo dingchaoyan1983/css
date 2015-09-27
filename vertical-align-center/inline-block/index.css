@@ -25,5 +25,5 @@ body {
 .child {
   display: inline-block;
   vertical-align: middle;
-  text-align: center;
+  background-color: #0FF;
 }

@@ -13,9 +13,35 @@
       border-bottom: 200px solid violet;
       box-sizing: border-box;
     }
+
+    #heart {
+      margin: 100px auto;
+      position: relative;
+      width: 200px;
+      height: 180px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 100px;
+      top: 0;
+      width: 100px;
+      height: 160px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
   </style>
 </head>
 <body>
 <div class="corner"></div>
+<div id="heart"></div>
 </body>
 </html>
